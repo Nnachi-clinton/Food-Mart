@@ -7,9 +7,7 @@ namespace FoodMartCore.IServices
 {
     public interface IUserRegistrationService
     {
-        Task<Response<RegisterResponseViewModel>> CreateUserAsync(RegisterRequestViewModel model, ModelStateDictionary modelState);
-
-        Task<Response<RegisterResponseViewModel>> CreateVendorAsync(RegisterRequestViewModel model, ModelStateDictionary modelState);
+       Task<Response<RegisterResponseViewModel>> RegisterAsync(RegisterRequestViewModel model, string roleName, ModelStateDictionary modelState);
 
 
     }

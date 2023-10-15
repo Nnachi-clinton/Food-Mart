@@ -31,7 +31,8 @@ namespace FoodMartInfrastructure.DbContext
             builder.Entity<IdentityRole>().HasData
                 (
                   new IdentityRole() { Name = "User", ConcurrencyStamp = "0", NormalizedName = "User" },
-                  new IdentityRole() { Name = "Vendor", ConcurrencyStamp = "1", NormalizedName = "Vendor" }
+                  new IdentityRole() { Name = "Vendor", ConcurrencyStamp = "1", NormalizedName = "Vendor" },
+                  new IdentityRole() { Name = "Admin", ConcurrencyStamp = "2", NormalizedName = "Admin" }
                 );
         }
 

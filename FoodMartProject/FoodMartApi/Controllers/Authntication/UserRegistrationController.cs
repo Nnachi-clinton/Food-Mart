@@ -23,7 +23,7 @@ namespace FoodMartApi.Controllers.Authntication
                 return BadRequest(ModelState);
             }
 
-            var result = await _userRegistrationService.CreateUserAsync(model, ModelState);
+            var result = await _userRegistrationService.RegisterAsync(model, "User", ModelState); 
 
             if (result != null) 
               return Ok(result);            
@@ -41,7 +41,7 @@ namespace FoodMartApi.Controllers.Authntication
                 return BadRequest(ModelState);
             }
 
-            var result = await _userRegistrationService.CreateVendorAsync(model, ModelState);
+            var result =  await _userRegistrationService.RegisterAsync(model, "Vendor", ModelState);
 
             if (result != null)
                 return Ok(result);

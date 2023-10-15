@@ -57,6 +57,7 @@ builder.Services.AddDbContext<FoodDbContext>(options =>
 
 builder.Services.AddScoped<IUserLoginService, UserLoginService>();
 builder.Services.AddScoped<IUserRegistrationService, UserRegistrationService>();
+builder.Services.AddScoped<GeneralValidator>();
 
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<FoodDbContext>()
