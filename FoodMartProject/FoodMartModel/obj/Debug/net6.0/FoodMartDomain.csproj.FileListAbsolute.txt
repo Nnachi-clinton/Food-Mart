@@ -12,3 +12,17 @@ C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartModel\obj\De
 C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.pdb
 C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.genruntimeconfig.cache
 C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartModel\obj\Debug\net6.0\ref\FoodMartDomain.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\bin\Debug\net6.0\FoodMartDomain.deps.json
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\bin\Debug\net6.0\FoodMartDomain.runtimeconfig.json
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\bin\Debug\net6.0\FoodMartDomain.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\bin\Debug\net6.0\FoodMartDomain.pdb
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.AssemblyInfo.cs
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\refint\FoodMartDomain.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.pdb
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\FoodMartDomain.genruntimeconfig.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartModel\obj\Debug\net6.0\ref\FoodMartDomain.dll

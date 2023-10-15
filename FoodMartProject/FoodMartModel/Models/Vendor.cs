@@ -1,9 +1,9 @@
-﻿namespace FoodMartModel.Models
-{
-    public class Vendor
-    {
+﻿using Microsoft.AspNetCore.Identity;
 
-        public string Id { get; set; }
+namespace FoodMartModel.Models
+{
+    public class Vendor : IdentityUser
+    {
         public string Image { get; set; }
         public string RC { get; set; }
         public string LastName { get; set; }

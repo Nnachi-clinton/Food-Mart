@@ -17,7 +17,7 @@ namespace FoodMartInfrastructure.DbContext
 
         public DbSet<History> Histories { get; set; }
         public DbSet<Categories> Categories { get; set; }
-        public DbSet<Vendor> Vendors { get; set; }
+       // public DbSet<Vendor> Vendors { get; set; }
         public DbSet<Analysis> Analysis { get; set; }
         public DbSet<Product> Products { get; set; }
 

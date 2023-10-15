@@ -6,6 +6,7 @@ using FoodMartModel.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
+using FoodMartCommons.JWT;
 
 namespace FoodMartCore.Services
 {
@@ -30,7 +31,7 @@ namespace FoodMartCore.Services
 
             if (user == null)
             {
-                return response.Failed("User not found");
+                return response.Failed("User not found", StatusCodes.Status404NotFound);
             }
 
             var validatePassword = await _signInManager.CheckPasswordSignInAsync(user, model.Password, lockoutOnFailure: false);
@@ -52,9 +53,11 @@ namespace FoodMartCore.Services
                 role = "User";
             }
 
-           // var token = JWT.GenerateJwtToken(user, role, _configuration);
+            var token = JWT.GenerateJwtToken(user, role, _configuration);
             var result = new LoginResponseViewModel
             {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
                 UserName = user.UserName,
                 Id = user.Id,
                 Token = token
