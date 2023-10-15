@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\bin\Debug\net6.0\FoodMartCore.deps.json
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\bin\Debug\net6.0\FoodMartCore.runtimeconfig.json
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\bin\Debug\net6.0\FoodMartCore.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\bin\Debug\net6.0\FoodMartCore.pdb
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.AssemblyInfo.cs
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\refint\FoodMartCore.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.pdb
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\FoodMartCore.genruntimeconfig.cache
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\FoodMartProject\FoodMartCore\obj\Debug\net6.0\ref\FoodMartCore.dll
