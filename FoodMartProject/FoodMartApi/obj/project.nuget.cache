@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8ETkytcpSy7FrcycwWkaoYKYWhpHMH/GS45Tok/EauRv8RUTkan+zq+zvCXdYk+qpH3eWvBwoPgT2Gt8g455Lg==",
+  "dgSpecHash": "Aj+cjvikLMl63PT41UWFTo7k9S5tqLNXIYuYrb7MP+8liCuCunXVqbuUrWvh0976UlDpNIZ7YRQXGJlC6A9VRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartApi\\FoodMartApi.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,8 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\npgsql\\6.0.10\\npgsql.6.0.10.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.22\\npgsql.entityframeworkcore.postgresql.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

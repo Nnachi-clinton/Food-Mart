@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jbfgE9M9nnRP0nOL1jlCwNwWjFR2MElYnjb5HX6tGj2PBwTexKEjN7r1qGaDx250fTERHx/MHp+NCeCKIsvhCg==",
+  "dgSpecHash": "eORbhrezL8UTGWeZOaw9CG5ZyuuLF5PlcNE74L/CJvtHHblPAtubWrDMldn4UxizMxcK7v8teQoHQhn8FMiIHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartCore\\FoodMartCore.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,8 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\npgsql\\6.0.10\\npgsql.6.0.10.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.22\\npgsql.entityframeworkcore.postgresql.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

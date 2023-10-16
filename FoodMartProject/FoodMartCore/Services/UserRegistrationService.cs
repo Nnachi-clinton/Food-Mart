@@ -6,7 +6,6 @@ using FoodMartDomain.ViewModels.ResponseModel;
 using FoodMartModel.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace FoodMartCore.Services
@@ -39,7 +38,7 @@ namespace FoodMartCore.Services
             if (!uniqueUser.Succeeded)
             {
                 var errors = uniqueUser.Errors.Select(e => e.Description).ToList();
-                return response.Failed("Email already exists", StatusCodes.Status400BadRequest);
+                return response.Failed("Email already exist", StatusCodes.Status400BadRequest);
             
             }
                 if (result.Succeeded)

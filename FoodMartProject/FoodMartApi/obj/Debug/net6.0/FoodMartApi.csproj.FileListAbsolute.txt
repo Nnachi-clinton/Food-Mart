@@ -158,3 +158,5 @@ C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartAp
 C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartApi\bin\Debug\net6.0\FoodMartApi.staticwebassets.runtime.json
 C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartApi\bin\Debug\net6.0\Npgsql.dll
+C:\Users\HP\Desktop\ASP.Net\ShoppingProject\Food-Mart\FoodMartProject\FoodMartApi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
