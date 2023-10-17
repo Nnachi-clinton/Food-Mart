@@ -12,6 +12,7 @@
           "FluentValidation.AspNetCore": "11.3.0",
           "FoodMartCommons": "1.0.0",
           "FoodMartDomain": "1.0.0",
+          "FoodMartInfrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.23",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.23",
           "Microsoft.AspNetCore.Identity.UI": "6.0.23",
@@ -636,6 +637,22 @@
         "runtime": {
           "FoodMartDomain.dll": {}
         }
+      },
+      "FoodMartInfrastructure/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.7.1",
+          "FluentValidation.AspNetCore": "11.3.0",
+          "FoodMartDomain": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.23",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.23",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.23",
+          "Microsoft.EntityFrameworkCore": "6.0.23",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.23",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
+        },
+        "runtime": {
+          "FoodMartInfrastructure.dll": {}
+        }
       }
     }
   },
@@ -1050,6 +1067,11 @@
       "sha512": ""
     },
     "FoodMartDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodMartInfrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

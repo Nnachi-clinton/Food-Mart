@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FoodMartCommons\FoodMartCommons.csproj" />
+    <ProjectReference Include="..\FoodMartData\FoodMartInfrastructure.csproj" />
     <ProjectReference Include="..\FoodMartModel\FoodMartDomain.csproj" />
   </ItemGroup>
 

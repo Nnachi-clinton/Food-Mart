@@ -1153,6 +1153,7 @@
           "FluentValidation.AspNetCore": "11.3.0",
           "FoodMartCommons": "1.0.0",
           "FoodMartDomain": "1.0.0",
+          "FoodMartInfrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.23",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.23",
           "Microsoft.AspNetCore.Identity.UI": "6.0.23",
@@ -3185,23 +3186,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartApi\\FoodMartApi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Food-Mart\\FoodMartProject\\FoodMartApi\\FoodMartApi.csproj",
       "projectName": "FoodMartApi",
-      "projectPath": "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartApi\\FoodMartApi.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartApi\\obj\\",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Food-Mart\\FoodMartProject\\FoodMartApi\\FoodMartApi.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Food-Mart\\FoodMartProject\\FoodMartApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3211,18 +3212,17 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartCore\\FoodMartCore.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartCore\\FoodMartCore.csproj"
+            "C:\\Users\\user\\OneDrive\\Desktop\\Food-Mart\\FoodMartProject\\FoodMartCore\\FoodMartCore.csproj": {
+              "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Food-Mart\\FoodMartProject\\FoodMartCore\\FoodMartCore.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartData\\FoodMartInfrastructure.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\ASP.Net\\ShoppingProject\\Food-Mart\\FoodMartProject\\FoodMartData\\FoodMartInfrastructure.csproj"
+            "C:\\Users\\user\\OneDrive\\Desktop\\Food-Mart\\FoodMartProject\\FoodMartData\\FoodMartInfrastructure.csproj": {
+              "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Food-Mart\\FoodMartProject\\FoodMartData\\FoodMartInfrastructure.csproj"
             }
           }
         }
@@ -3231,6 +3231,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -3303,7 +3306,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
       }
     }
   }
