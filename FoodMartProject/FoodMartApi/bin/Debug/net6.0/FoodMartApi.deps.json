@@ -677,6 +677,7 @@
           "FluentValidation.AspNetCore": "11.3.0",
           "FoodMartCommons": "1.0.0",
           "FoodMartDomain": "1.0.0",
+          "FoodMartInfrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.23",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.23",
           "Microsoft.AspNetCore.Identity.UI": "6.0.23",

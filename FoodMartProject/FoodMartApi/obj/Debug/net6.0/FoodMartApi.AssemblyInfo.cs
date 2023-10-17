@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodMartApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f118a4f417b66d243e4a60c10a6d94c8f4eb2006")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodMartApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodMartApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
