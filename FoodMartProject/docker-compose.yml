@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  foodmartapi:
-    image: ${DOCKER_REGISTRY-}foodmartapi
-    build:
-      context: .
-      dockerfile: FoodMartApi/Dockerfile
