@@ -23,4 +23,5 @@ RUN dotnet publish "FoodMartApi.csproj" -c Release -o /app/publish /p:UseAppHost
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+#CMD ASPNETCORE_URLS=http://*:$PORT dotnet FoodMartApi.dll
 ENTRYPOINT ["dotnet", "FoodMartApi.dll"]
