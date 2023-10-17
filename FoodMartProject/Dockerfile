@@ -7,14 +7,14 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["FoodMartApi/FoodMartApi.csproj", "FoodMartApi/"]
+COPY ["FoodMartProject/FoodMartApi.csproj", "FoodMartApi/"]
 COPY ["FoodMartCore/FoodMartCore.csproj", "FoodMartCore/"]
 COPY ["FoodMartCommons/FoodMartCommons.csproj", "FoodMartCommons/"]
 COPY ["FoodMartModel/FoodMartDomain.csproj", "FoodMartModel/"]
 COPY ["FoodMartData/FoodMartInfrastructure.csproj", "FoodMartData/"]
-RUN dotnet restore "FoodMartApi/FoodMartApi.csproj"
+RUN dotnet restore "FoodMartProject/FoodMartApi.csproj"
 COPY . .
-WORKDIR "/src/FoodMartApi"
+WORKDIR "/src/FoodMartProject"
 RUN dotnet build "FoodMartApi.csproj" -c Release -o /app/build
 
 FROM build AS publish
