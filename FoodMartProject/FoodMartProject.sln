@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMartApi", "FoodMartApi\FoodMartApi.csproj", "{EC1F581A-6474-436B-BF6B-2DBFF0BC1638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodMartApi", "FoodMartApi\FoodMartApi.csproj", "{EC1F581A-6474-436B-BF6B-2DBFF0BC1638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMartCore", "FoodMartCore\FoodMartCore.csproj", "{8DBE5CE6-B927-4D24-AFA9-0FF0FBC34180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodMartCore", "FoodMartCore\FoodMartCore.csproj", "{8DBE5CE6-B927-4D24-AFA9-0FF0FBC34180}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMartInfrastructure", "FoodMartData\FoodMartInfrastructure.csproj", "{E287D70D-4CE4-4CCA-BF07-57B05F3309E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodMartInfrastructure", "FoodMartData\FoodMartInfrastructure.csproj", "{E287D70D-4CE4-4CCA-BF07-57B05F3309E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMartDomain", "FoodMartModel\FoodMartDomain.csproj", "{3EE5D42E-39B6-4C21-8EDC-20CA3F7E7BD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodMartDomain", "FoodMartModel\FoodMartDomain.csproj", "{3EE5D42E-39B6-4C21-8EDC-20CA3F7E7BD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMartCommons", "FoodMartCommons\FoodMartCommons.csproj", "{EB174E26-0289-45FC-B922-9D911E278146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodMartCommons", "FoodMartCommons\FoodMartCommons.csproj", "{EB174E26-0289-45FC-B922-9D911E278146}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FAD2E42C-AB96-4436-9A56-A686610E313D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EB174E26-0289-45FC-B922-9D911E278146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB174E26-0289-45FC-B922-9D911E278146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB174E26-0289-45FC-B922-9D911E278146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD2E42C-AB96-4436-9A56-A686610E313D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD2E42C-AB96-4436-9A56-A686610E313D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD2E42C-AB96-4436-9A56-A686610E313D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD2E42C-AB96-4436-9A56-A686610E313D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

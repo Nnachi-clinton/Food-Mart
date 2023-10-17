@@ -12,10 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("5fcf7afd-e8ec-499a-8013-a4286a3bf3c0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodMartApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f118a4f417b66d243e4a60c10a6d94c8f4eb2006")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodMartApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodMartApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

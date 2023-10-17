@@ -1,4 +1,5 @@
 using FluentValidation.AspNetCore;
+using FoodMartApi.Extensions;
 using FoodMartCommons.Validations;
 using FoodMartCore.IServices;
 using FoodMartCore.Services;
@@ -12,6 +13,8 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
+var env = builder.Environment;
 
 // Add services to the container.
 
@@ -52,11 +55,15 @@ builder.Services.AddSwaggerGen(config =>
 
 });
 
-builder.Services.AddDbContext<FoodDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+//builder.Services.AddDbContext<FoodDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+
+builder.Services.AddDbContextAndConfigurations(env, config);
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 builder.Services.AddScoped<IUserLoginService, UserLoginService>();
 builder.Services.AddScoped<IUserRegistrationService, UserRegistrationService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<GeneralValidator>();
 
 builder.Services.AddIdentity<User, IdentityRole>()
@@ -85,10 +92,11 @@ builder.Services.AddAuthentication(options =>
             ValidateAudience = false
         };
     });
+builder.Services.AddCors();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
@@ -100,6 +108,7 @@ if (app.Environment.IsDevelopment())
 
 // Configure the HTTP request pipeline.
 
+app.UseCors(builder => { builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); }); // other middleware }
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
